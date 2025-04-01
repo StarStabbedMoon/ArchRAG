@@ -103,8 +103,10 @@ CHAT_STORE_KEY = "user1"
 HF_ENDPOINT = "https://hf-mirror.com" # Default to be "https://huggingface.co"
 
 # Configure Embedding model
-DEFAULT_EMBEDDING_MODEL = "bge-small-zh-v1.5"
+DEFAULT_EMBEDDING_MODEL = "bge-small-en-v1.5"
 EMBEDDING_MODEL_PATH = {
+    "bge-small-en-v1.5": "BAAI/bge-small-en-v1.5",
+    "bge-large-en-v1.5": "BAAI/bge-large-en-v1.5",
     "bge-small-zh-v1.5": "BAAI/bge-small-zh-v1.5",
     "bge-large-zh-v1.5": "BAAI/bge-large-zh-v1.5",
 }
